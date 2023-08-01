@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Characters</title>
+    <link rel="stylesheet" type="text/css" href="style/style.css">
+</head>
+<body>
+    <label>Pagination
+        <input type="checkbox" id="is-pagination-on" onclick="changePagination()">
+    </label>
+
+    <div class="wrapper">
+        <div class="outside-block"></div>
+    </div>
+
+    <!-- Открыть модальное окно -->
+    <div id="myBtn"></div>
+    <!-- Модальное окно -->
+    <div id="myModal" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+        </div>
+    </div>
+
+    <div class="pages"></div>
+
+    <script src="script/jquery.js"></script>
+    <script src="script/ajax.js"></script>
+    <script src="script/view.js"></script>
+    <script src="script/controller.js"></script>
+    <script src="script/script.js"></script>
+</body>
+</html> 

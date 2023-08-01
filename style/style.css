@@ -4,7 +4,8 @@ body {
     overflow-x: hidden;
 }
 .wrapper {
-    padding-top: 20px;
+    padding: 20px 10px 0 10px;
+
 }
 .outside-block {
     display: flex;
@@ -93,6 +94,12 @@ body {
 .pages {
     display: none;
     text-align: center;
+}
+.arrow {
+    display: none;
+    position: fixed;
+    left: 10px;
+    top: 80%;
 }
 @media all and (max-width: 1300px) {
     .block {

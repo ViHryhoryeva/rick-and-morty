@@ -57,7 +57,7 @@ function enableArrowToTop() {
         }
     });
 
-    window.addEventListener('click', function() {
+    arrow.addEventListener('click', function() {
         requestAnimationFrame(tick);
     });
 

@@ -93,7 +93,8 @@ function showCharacterInfo(info) {
     window.onclick = function (event) {
         if (event.target === modal) {
             modal.style.display = "none";
+            modalContent.removeChild(wrapperModal);
         }
-        modalContent.removeChild(wrapperModal);
+
     }
 }
